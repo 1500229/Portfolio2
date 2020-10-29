@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+    <!--Using-FontAwesome-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"
+crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+    <!--navigation------------------>
+        <nav>
+        <!--logo-->
+        <a href="#" class="logo">Pawel Tech</a>
+        <!--menu-->
+        <ul>
+        <li><a href="C:\Pawel\WebDevelopment\index.html" class="active" >Home</a></li>
+        <li><a href="C:\Pawel\WebDevelopment\About.html" class="active">About</a></li>
+        <li><a href="C:\Pawel\WebDevelopment\Contact.html" class="active">Contact us</a></li>
+        <li><a href="C:\Pawel\WebDevelopment\Team.html" class="active">Team</a></li>
+        </ul>
+        <!--bars-------------------------->
+        <div class="toggle"></div>
+
+        </nav>  
+    <!--text---------------------------------->
+        <div class="text-container">
+        <p>Hello,</p>
+        <p>I'm Pawel</p>
+        <p>I am a Software Engineer <br>& Web Developer</p>
+        <button class="hire-btn">Hire me</button>
+        <button class="down-cv">Download CV</button>
+        </div>
+    <!--model-------------------------------->
+        <img src="C:\Pawel\WebDevelopment\model1.JPG" class="model" alt="model">
+
+    </section>
+    <!--about-section---------------------------------------->
+    <div class="about-container">
+    <!--img---------------------->
+        <img src="C:\Pawel\WebDevelopment\model2.JPG">
+    <!--about-text---------------->
+        <div class="about-text">
+        <p>About Me</p>
+        <p>Web Developer and Software Engineer </p>
+        <p>Hello my name is Pawel Korczyk I'm a junior Developer.If you have
+            any Projects or if you want to make a Software for 
+            your buissnes contact me as soon as possibale. If you really
+            like my work please let me know or if you don't like it I will
+            be making changes till I satisfied you.</p>
+        <p>Please leave a comment what you think about 
+            my website.
+        </p>
+        <!--button---------------->
+        <button>Hire Me</button>
+        <button>Download CV</button>
+
+        </div>
+
+    </div>
+    <!--services------------------------------------------------------>
+    <div class="services">
+        <!--text---------------->
+    <div class="services-text">
+    <p>Services</p>
+    <p>Services required</p>
+    <p>I am a motivated person looking for a job as a Developer
+       if you find this Website interested contact me </p>
+    </div>
+        <!--box-------------------------------->
+    <div class="box-container">
+    <!--1-------------------->
+        <div class="box-1">
+        <span>1</span>
+        <p class="heading">Web Design</p>
+        <p class="details">This site is under moderation and
+            it can change any time</p>
+        <button>Read more</button>
+        </div>
+    <!--2-------------------------------------->
+        <div class="box-2">
+            <span>1</span>
+        <p class="heading">Web Development</p>
+        <p class="details">This site is under moderation and
+            it can change any time</p>
+        <button>Read more</button>
+        </div>
+    <!--3---------------------------------------->
+        <div class="box-3">
+            <span>1</span>
+        <p class="heading">Security</p>
+        <p class="details">This site is under moderation and
+            it can change any time</p>
+        <button>Read more</button>
+        </div>
+
+    </div>
+    </div>
+<!--contact me-------------------------------------------->
+    <div class="contact-me">
+    <p>If you have any projects in your mind.</p>
+    <button>contact me</button>
+    </div>
+<!--footer------------------------------------>
+    <footer>
+    <p>Going to Internet</p>
+    <p>This site is under construction  </p>
+    <!--social-------------------------------->
+        <div class="social-icons">
+
+            <a href="#"><i class="fab fa-facebook"></i>
+            <a href="#"><i class="fab fa-twitter"></i>
+            <a href="#"><i class="fab fa-instagram"></i>
+            <a href="#"><i class="fab fa-youtube"></i>
+
+        </div>
+    <!--Copyright---->
+        <p class="copyright">Copyright By Going to Internet</p>    
+    </footer>
+    <!--atached social bar------>
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook"></i>
+        <a href="#"><i class="fab fa-twitter"></i>
+        <a href="#"><i class="fab fa-instagram"></i>
+        <a href="#"><i class="fab fa-youtube"></i>
+    </div>
+    <!--JQuery------------------------------------>
+<script type="text/javascript" src="\Pawel\WebDevelopment\Js\JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('.nav').toggleClass('active')
+        })
+    })
+    </script>
+
+</body>
+</html>
